@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor>
+	<castshadow>
+	</castshadow>
+	<group>
+		<variant frequency="100" name="Base">	
+			<mesh>structures/eyecandy/fisherhut.dae</mesh>
+			<textures>
+			  <texture file="structures/eyecandy/fisherhut.png" name="baseTex"/>
+			  <texture file="structures/eyecandy/ao/fisherhut_ao.png" name="aoTex"/>
+			</textures>				
+		</variant>
+	</group>
+	<material>basic_trans_ao.xml</material>
+</actor>
