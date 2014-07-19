@@ -32,6 +32,6 @@
     </Technologies>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/eyecandy/fisherhut.xml</Actor>
+    <Actor>structural/eyecandy_fisherhut.xml</Actor>
   </VisualActor>
 </Entity>
