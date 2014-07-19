@@ -4,10 +4,10 @@
 	</castshadow>
 	<group>
 		<variant frequency="100" name="Base">	
-			<mesh>structural/fisherhut.dae</mesh>
+			<mesh>structural/eyecandy_fisherhut.dae</mesh>
 			<textures>
-			  <texture file="structural/fisherhut.png" name="baseTex"/>
-			  <texture file="structural/ao/fisherhut_ao.png" name="aoTex"/>
+			  <texture file="structural/eyecandy_fisherhut.png" name="baseTex"/>
+			  <texture file="structural/ao/eyecandy_fisherhut_ao.png" name="aoTex"/>
 			</textures>				
 		</variant>
 	</group>
