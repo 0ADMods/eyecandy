@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor>
+	<castshadow>
+	</castshadow>
+	<group>
+		<variant frequency="100" name="Base">	
+			<mesh>structures/eyecandy_mint_decal.dae</mesh>
+			<textures>
+			  <texture file="structures/eyecandy_mint_decal.png" name="baseTex"/>
+			  <texture file="structures/eyecandy_mint_decal_norm.png" name="normTex"/>			  
+			  <texture file="structures/eyecandy_mint_decal_spec.png" name="specTex"/>
+			  <texture file="structures/ao/eyecandy_mint_decal_ao.png" name="aoTex"/>
+			</textures>
+		</variant>
+	</group>
+	<material>basic_trans_ao_parallax_spec.xml</material>
+</actor>
