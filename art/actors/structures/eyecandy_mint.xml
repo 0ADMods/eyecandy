@@ -12,6 +12,7 @@
 				<texture file="structures/ao/eyecandy_mint_ao.png" name="aoTex"/>
 			</textures>
 			<props>
+				<prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
 				<prop actor="structures/eyecandy_mint_decal.xml" attachpoint="root"/>				
 			</props>
 		</variant>
