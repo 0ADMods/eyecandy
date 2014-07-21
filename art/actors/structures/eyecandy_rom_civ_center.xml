@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor>
+	<castshadow>
+	</castshadow>
+	<group>
+		<variant frequency="100" name="Base">	
+			<mesh>structures/eyecandy_rom_civ_center.dae</mesh>
+			<textures>
+			  <texture file="structures/eyecandy_rom_civ_center.png" name="baseTex"/>
+			<texture file="structures/eyecandy_rom_civ_center_norm.png" name="normTex"/>
+			  <texture file="structures/eyecandy_rom_civ_center_spec.png" name="specTex"/>
+			  <texture file="structures/ao/eyecandy_rom_civ_center_ao.png" name="aoTex"/>
+			</textures>				
+		</variant>
+	</group>
+	<material>basic_trans_ao_parallax_spec.xml</material>
+</actor>
