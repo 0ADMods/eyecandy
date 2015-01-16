@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant name="floating barrels">
+      <mesh>props/eyecandy_floating_barrels_moss.dae</mesh>
+      <textures><texture file="props/eyecandy_barrel_moss.png" name="baseTex"/></textures>
+      <animations>
+        <animation file="other/floating_barrels_moss.dae" name="Idle" speed="75"/>
+      </animations>
+    </variant>
+  </group>
+</actor>

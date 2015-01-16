@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant name="floating barrels">
+			<mesh>props/eyecandy_geyser.dae</mesh>
+			<textures>
+				<texture file="props/cliff_volcanic_coarse.dds" name="baseTex"/>
+			</textures>
+			<props>
+				<prop actor="particle/smoke_blacksmith.xml" attachpoint="root"/>		
+			</props>
+		</variant>
+	</group>
+</actor>
