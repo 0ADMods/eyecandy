@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="100" name="palisade rocks medium">
+			<animations/>
+			<mesh>structures/eyecandy_palisade_watergate.dae</mesh>
+			<textures>
+				<texture file="props/palisade_main.png" name="baseTex"/>
+				<texture file="structural/ao/palisade_watergate.png" name="aoTex"/>
+			</textures>
+		</variant>
+	</group>
+	<material>no_trans_ao.xml</material>
+</actor>
