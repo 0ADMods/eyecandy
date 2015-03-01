@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Cost>
+    <BuildTime>275</BuildTime>
+  </Cost>
+  <Footprint>
+    <Square width="15.0" depth="20.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+  </Health>
+  <Identity>
+    <Civ>eyecandy</Civ>
+    <SpecificName>Norse Barn</SpecificName>
+    <History></History>
+  </Identity>
+  <Obstruction>
+    <Static width="15.0" depth="20.0"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/eyecandy_norse_barn.xml</Actor>
+  </VisualActor>
+</Entity>
