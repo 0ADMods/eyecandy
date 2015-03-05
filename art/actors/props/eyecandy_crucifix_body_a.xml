@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant name="Base">
+			<mesh>props/eyecandy_crucifix_body_a.dae</mesh>
+			<textures>
+				<texture file="skeletal/hele_tunic.dds" name="baseTex"/>
+			</textures>
+			<props>
+				<prop actor="props/units/heads/head_hele_b.xml" attachpoint="head"/>
+			</props>			
+		</variant>
+		<variant name="Base2">
+			<mesh>props/eyecandy_crucifix_body_b.dae</mesh>
+			<textures>
+				<texture file="skeletal/hele_fem_chiton_linen.dds" name="baseTex"/>
+			</textures>
+			<props>
+				<prop actor="props/units/heads/dudette_head.xml" attachpoint="head"/>
+			</props>		
+		</variant>
+	</group>
+	<material>player_trans.xml</material>
+</actor>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant name="Base3">
+			<mesh>props/eyecandy_crucifix_a.dae</mesh>
+			<textures>
+				<texture file="props/eyecandy_crucifix.png" name="baseTex"/>
+			</textures>	
+		</variant>
+		<variant name="Base4">
+			<mesh>props/eyecandy_crucifix_b.dae</mesh>
+			<textures>
+				<texture file="props/eyecandy_crucifix.png" name="baseTex"/>
+			</textures>	
+		</variant>
+	</group>
+	<material>basic_trans.xml</material>
+</actor>
