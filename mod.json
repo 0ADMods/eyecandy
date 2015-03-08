@@ -4,6 +4,6 @@
     "label": "Eyecandy objects",
     "url": "github.com/0ADMods/eyecandy",
     "description": "Adds eyecandy objects to 0AD.",
-    "dependencies": ["0ad_extended=0.0.17"],
+    "dependencies": ["0ad"],
     "type": "content.objects"
 }
