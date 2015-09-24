@@ -11,14 +11,10 @@
     <Entities datatype="tokens">
       -units/{civ}_support_female_citizen	
     </Entities>
-    <Technologies datatype="tokens">
-      -phase_town_generic
-      -phase_city_generic
-    </Technologies>
   </ProductionQueue>
   <VisualActor>
-		<Actor>
-			structures/eyecandy_rom_civ_center.xml
-		</Actor>
+	<Actor>
+		structures/eyecandy_rom_civ_center.xml
+	</Actor>
   </VisualActor>
 </Entity>
