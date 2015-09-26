@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+  <group>
+    <variant frequency="1" name="mesh">
+      <mesh>props/cornemuse.dae</mesh>
+    </variant>
+  </group>
+
+  <group>
+    <variant frequency="1" name="head-c">
+      <textures><texture file="props/instruments/cornemuse.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+
+</actor>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Stanislas Dolcini</author>
+      <authoring_tool>Blender 2.71.0 commit date:2014-06-25, commit time:18:36, hash:9337574</authoring_tool>
+    </contributor>
+    <created>2014-08-09T03:11:45</created>
+    <modified>2014-08-09T03:11:45</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="Material_003-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.512 0.512 0.512 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Material_003-material" name="Material_003">
+      <instance_effect url="#Material_003-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="wrld_waypoint_flag-Ge-mesh_001-mesh" name="wrld_waypoint_flag-Ge-mesh.001">
+      <mesh>
+        <source id="wrld_waypoint_flag-Ge-mesh_001-mesh-positions">
+          <float_array id="wrld_waypoint_flag-Ge-mesh_001-mesh-positions-array" count="240">0.06654107 0 -0.03201168 0 -0.06654113 -0.03201168 -0.06654119 0 -0.03201168 0 0.06654107 -0.03201168 0.06654107 0 5.998501 0 -0.06654113 5.998501 -0.06654119 0 5.998501 0 0.06654107 5.998501 -2.012944 0.1542692 5.95697 -2.012944 0.1542692 4.612833 -0.008871555 0.0570926 4.685237 -0.008871912 0.05709272 5.884565 -1.61213 0.1287806 4.646514 -1.211315 0.1018528 4.662783 -0.8105006 0.08277046 4.675405 -0.409686 0.05709272 4.685237 -2.012944 0.1907317 5.688142 -2.012944 0.2111176 5.419315 -2.012944 0.2111176 5.150487 -2.012944 0.1907317 4.88166 -1.61213 0.1287806 5.923289 -1.211315 0.1018528 5.90702 -0.8105009 0.08277046 5.894397 -0.4096863 0.05709272 5.884565 -0.008871555 0.2074741 4.925103 -0.008871674 0.2915514 5.164968 -0.008871674 0.2915514 5.404834 -0.008871793 0.2074741 5.6447 -0.4096861 0.2074741 4.925103 -0.8105008 0.2030501 4.919204 -1.211315 0.1989313 4.911631 -1.61213 0.1951231 4.901869 -0.4096862 0.2915514 5.164968 -0.8105008 0.2702978 5.163002 -1.211315 0.2532075 5.160478 -1.61213 0.2322148 5.157224 -0.4096862 0.2915514 5.404834 -0.8105008 0.2702978 5.406801 -1.211315 0.2532075 5.409325 -1.61213 0.2322148 5.412579 -0.4096863 0.2074741 5.6447 -0.8105009 0.2030501 5.650599 -1.211315 0.1989313 5.658172 -1.61213 0.1951231 5.667933 -1.61213 0.181357 5.667933 -1.211315 0.1865831 5.658172 -0.8105009 0.189284 5.650599 -0.4096863 0.193708 5.6447 -1.61213 0.2184486 5.412579 -1.211315 0.2408592 5.409325 -0.8105008 0.2565317 5.406801 -0.4096862 0.2777853 5.404834 -1.61213 0.2184486 5.157224 -1.211315 0.2408592 5.160478 -0.8105008 0.2565317 5.163002 -0.4096862 0.2777853 5.164968 -1.61213 0.181357 4.901869 -1.211315 0.1865831 4.911631 -0.8105008 0.189284 4.919204 -0.4096861 0.193708 4.925103 -0.008871793 0.193708 5.6447 -0.008871674 0.2777853 5.404834 -0.008871674 0.2777853 5.164968 -0.008871555 0.193708 4.925103 -0.4096863 0.04332655 5.884565 -0.8105009 0.06900429 5.894397 -1.211315 0.08950448 5.90702 -1.61213 0.1150144 5.923289 -2.012944 0.1769655 4.88166 -2.012944 0.1973515 5.150487 -2.012944 0.1973515 5.419315 -2.012944 0.1769655 5.688142 -0.409686 0.04332655 4.685237 -0.8105006 0.06900429 4.675405 -1.211315 0.08950448 4.662783 -1.61213 0.1150144 4.646514 -0.008871912 0.04332655 5.884565 -0.008871555 0.04332643 4.685237 -2.012944 0.1405031 4.612833 -2.012944 0.1405031 5.95697</float_array>
+          <technique_common>
+            <accessor source="#wrld_waypoint_flag-Ge-mesh_001-mesh-positions-array" count="80" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="wrld_waypoint_flag-Ge-mesh_001-mesh-normals">
+          <float_array id="wrld_waypoint_flag-Ge-mesh_001-mesh-normals-array" count="240">0 -0.8164922 -0.5773492 -0.8164922 0 -0.5773492 0 0.8164922 -0.5773492 0 0.8164922 0.5773492 -0.8164922 0 0.5773492 0 -0.8164922 0.5773492 0.8164922 0 -0.5773492 0.8164922 0 0.5773492 0.03811758 0.9677114 -0.2490615 0.03872793 0.9805597 -0.1922971 0.006469905 0.9883114 -0.1521958 0.03241062 0.9339579 -0.3558763 0.004882931 0.9802851 -0.1973937 0.02999967 0.8943755 -0.4462721 0.003509581 0.9589221 -0.2835475 0.01623582 0.8600421 -0.5099338 0.002410948 0.9331645 -0.3594165 0.001098632 0.910184 -0.4141667 0 0.901059 -0.433668 -0.04016232 0.9976501 -0.05520796 -0.04022336 0.9965819 -0.07202368 -0.03646957 0.9937742 -0.1050752 -0.03680527 0.9900205 -0.1359294 -0.02038633 0.9870907 -0.1587573 0 0.9858089 -0.1677602 -0.04016232 0.9976501 0.05520796 -0.04022336 0.9965819 0.07202368 -0.03646957 0.9937742 0.1050752 -0.03680527 0.9900205 0.1359294 -0.02038633 0.9870907 0.1587573 0.006469905 0.9883114 0.1521958 0.004882931 0.9802851 0.1973937 0.003509581 0.9589221 0.2835475 0.002410948 0.9331645 0.3594165 0.001098632 0.910184 0.4141667 0 0.901059 0.433668 0.03872793 0.9805597 0.1922971 0.03811758 0.9677114 0.2490615 0.03241062 0.9339579 0.3558763 0.02999967 0.8943755 0.4462721 0.01623582 0.8600421 0.5099338 0 0.8472549 0.5311747 0 -0.8472549 -0.5311747 -0.01623582 -0.8600421 -0.5099338 -0.001098632 -0.910184 -0.4141667 -0.03161716 -0.8943144 -0.4462721 -0.004089474 -0.933134 -0.359447 -0.03231906 -0.9339579 -0.3558763 -0.003448545 -0.9589526 -0.283517 -0.03650009 -0.9677724 -0.2490615 -0.003173887 -0.9802851 -0.1974242 -0.03872793 -0.9805597 -0.1922971 -0.006469905 -0.9883114 -0.1521958 0 -0.901059 -0.433668 0.02038633 -0.9870907 -0.1587573 0.03506577 -0.9900815 -0.1359599 0.03650009 -0.9937742 -0.1050752 0.04199343 -0.9964904 -0.07202368 0.04016232 -0.9976501 -0.05520796 0 -0.9858089 0.1677602 0 -0.9858089 -0.1677602 0.03506577 -0.9900815 0.1359599 0.03650009 -0.9937742 0.1050752 0.04199343 -0.9964904 0.07202368 0.02038633 -0.9870907 0.1587573 -0.001098632 -0.910184 0.4141667 -0.004089474 -0.933134 0.359447 -0.003448545 -0.9589526 0.283517 -0.003173887 -0.9802851 0.1974242 0.04016232 -0.9976501 0.05520796 0 -0.901059 0.433668 -0.01623582 -0.8600421 0.5099338 -0.03161716 -0.8943144 0.4462721 -0.03231906 -0.9339579 0.3558763 -0.03650009 -0.9677724 0.2490615 -0.006469905 -0.9883114 0.1521958 0 0.8472549 -0.5311747 0 0.9858089 0.1677602 0 -0.8472549 0.5311747 -0.03872793 -0.9805597 0.1922971</float_array>
+          <technique_common>
+            <accessor source="#wrld_waypoint_flag-Ge-mesh_001-mesh-normals-array" count="80" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="wrld_waypoint_flag-Ge-mesh_001-mesh-map-0">
+          <float_array id="wrld_waypoint_flag-Ge-mesh_001-mesh-map-0-array" count="672">0.1908548 0.01968955 0.1908548 0.1129075 0.09763699 0.1129075 0.09763699 0.0196895 0.09763699 0.1129075 0.004419267 0.1129075 0.002714335 0.01390278 0.9979164 0.01390284 0.9979164 0.1184371 0.002714335 0.01390278 0.9979164 0.01390284 0.9979164 0.1184371 0.002714335 0.01390278 0.9979164 0.01390284 0.9979164 0.1184371 0.9979164 0.1184371 0.002714335 0.118437 0.002714335 0.01390278 0.7980994 0.394408 0.9968822 0.394408 0.9968822 0.5145221 0.5993167 0.394408 0.7980994 0.394408 0.7980994 0.5145221 0.400534 0.394408 0.5993167 0.394408 0.5993167 0.5145221 0.2017513 0.394408 0.400534 0.394408 0.400534 0.5145221 0.2017513 0.394408 0.2017513 0.5145221 0.002968609 0.5145221 0.7980994 0.5145221 0.9968822 0.5145221 0.9968822 0.6346361 0.5993167 0.5145221 0.7980994 0.5145221 0.7980994 0.6346361 0.400534 0.5145221 0.5993167 0.5145221 0.5993167 0.6346361 0.2017513 0.5145221 0.400534 0.5145221 0.400534 0.6346361 0.2017513 0.5145221 0.2017513 0.6346361 0.002968609 0.6346361 0.7980994 0.6346361 0.9968822 0.6346361 0.9968822 0.7547502 0.5993167 0.6346361 0.7980994 0.6346361 0.7980994 0.7547502 0.400534 0.6346361 0.5993167 0.6346361 0.5993166 0.7547502 0.400534 0.6346361 0.400534 0.7547502 0.2017513 0.7547502 0.002968609 0.6346361 0.2017513 0.6346361 0.2017513 0.7547502 0.9968822 0.7547502 0.9968822 0.8748642 0.7980994 0.8748642 0.7980994 0.7547502 0.7980994 0.8748642 0.5993167 0.8748642 0.5993166 0.7547502 0.5993167 0.8748642 0.400534 0.8748642 0.400534 0.7547502 0.400534 0.8748642 0.2017513 0.8748642 0.2017513 0.7547502 0.2017513 0.8748642 0.002968609 0.8748642 0.9968822 0.8748642 0.9968822 0.9949784 0.7980994 0.9949784 0.7980994 0.8748642 0.7980994 0.9949784 0.5993166 0.9949784 0.5993167 0.8748642 0.5993166 0.9949784 0.400534 0.9949784 0.400534 0.8748642 0.400534 0.9949784 0.2017513 0.9949784 0.2017513 0.8748642 0.2017513 0.9949784 0.002968609 0.9949784 0.003244698 0.9950384 0.2012506 0.9950384 0.2012506 0.8750517 0.2012506 0.9950384 0.3992563 0.9950384 0.3992563 0.8750517 0.3992563 0.9950384 0.5972621 0.9950384 0.5972622 0.8750517 0.5972621 0.9950384 0.795268 0.9950384 0.795268 0.8750517 0.795268 0.9950384 0.9932738 0.9950384 0.9932738 0.8750517 0.003244698 0.8750517 0.2012506 0.8750517 0.2012506 0.7550653 0.2012506 0.8750517 0.3992563 0.8750517 0.3992563 0.7550653 0.3992563 0.8750517 0.5972622 0.8750517 0.5972621 0.7550653 0.5972622 0.8750517 0.795268 0.8750517 0.7952679 0.7550653 0.795268 0.8750517 0.9932738 0.8750517 0.9932738 0.7550653 0.003244698 0.6350788 0.003244698 0.7550653 0.2012506 0.7550653 0.2012506 0.7550653 0.3992563 0.7550653 0.3992563 0.6350788 0.3992563 0.6350788 0.3992563 0.7550653 0.5972621 0.7550653 0.5972622 0.6350788 0.5972621 0.7550653 0.7952679 0.7550653 0.7952679 0.6350788 0.7952679 0.7550653 0.9932738 0.7550653 0.003244698 0.6350788 0.2012506 0.6350788 0.2012506 0.5150924 0.2012506 0.5150924 0.2012506 0.6350788 0.3992563 0.6350788 0.3992563 0.5150924 0.3992563 0.6350788 0.5972622 0.6350788 0.5972622 0.5150924 0.5972622 0.6350788 0.7952679 0.6350788 0.7952679 0.5150924 0.7952679 0.6350788 0.9932738 0.6350788 0.003244698 0.5150924 0.2012506 0.5150924 0.2012506 0.3951058 0.2012506 0.3951058 0.2012506 0.5150924 0.3992563 0.5150924 0.3992563 0.3951058 0.3992563 0.5150924 0.5972622 0.5150924 0.5972622 0.3951058 0.5972622 0.5150924 0.7952679 0.5150924 0.7952679 0.3951058 0.7952679 0.5150924 0.9932738 0.5150924 0.09763717 0.0196895 0.1908548 0.01968955 0.09763699 0.1129075 0.004419267 0.0196895 0.09763699 0.0196895 0.004419267 0.1129075 0.002714335 0.118437 0.002714335 0.01390278 0.9979164 0.1184371 0.002714335 0.118437 0.002714335 0.01390278 0.9979164 0.1184371 0.002714335 0.118437 0.002714335 0.01390278 0.9979164 0.1184371 0.9979164 0.01390284 0.9979164 0.1184371 0.002714335 0.01390278 0.7980994 0.5145221 0.7980994 0.394408 0.9968822 0.5145221 0.5993167 0.5145221 0.5993167 0.394408 0.7980994 0.5145221 0.400534 0.5145221 0.400534 0.394408 0.5993167 0.5145221 0.2017513 0.5145221 0.2017513 0.394408 0.400534 0.5145221 0.002968609 0.394408 0.2017513 0.394408 0.002968609 0.5145221 0.7980994 0.6346361 0.7980994 0.5145221 0.9968822 0.6346361 0.5993167 0.6346361 0.5993167 0.5145221 0.7980994 0.6346361 0.400534 0.6346361 0.400534 0.5145221 0.5993167 0.6346361 0.2017513 0.6346361 0.2017513 0.5145221 0.400534 0.6346361 0.002968609 0.5145221 0.2017513 0.5145221 0.002968609 0.6346361 0.7980994 0.7547502 0.7980994 0.6346361 0.9968822 0.7547502 0.5993166 0.7547502 0.5993167 0.6346361 0.7980994 0.7547502 0.400534 0.7547502 0.400534 0.6346361 0.5993166 0.7547502 0.2017513 0.6346361 0.400534 0.6346361 0.2017513 0.7547502 0.002968609 0.7547502 0.002968609 0.6346361 0.2017513 0.7547502 0.7980994 0.7547502 0.9968822 0.7547502 0.7980994 0.8748642 0.5993166 0.7547502 0.7980994 0.7547502 0.5993167 0.8748642 0.400534 0.7547502 0.5993166 0.7547502 0.400534 0.8748642 0.2017513 0.7547502 0.400534 0.7547502 0.2017513 0.8748642 0.002968609 0.7547502 0.2017513 0.7547502 0.002968609 0.8748642 0.7980994 0.8748642 0.9968822 0.8748642 0.7980994 0.9949784 0.5993167 0.8748642 0.7980994 0.8748642 0.5993166 0.9949784 0.400534 0.8748642 0.5993167 0.8748642 0.400534 0.9949784 0.2017513 0.8748642 0.400534 0.8748642 0.2017513 0.9949784 0.002968609 0.8748642 0.2017513 0.8748642 0.002968609 0.9949784 0.003244698 0.8750517 0.003244698 0.9950384 0.2012506 0.8750517 0.2012506 0.8750517 0.2012506 0.9950384 0.3992563 0.8750517 0.3992563 0.8750517 0.3992563 0.9950384 0.5972622 0.8750517 0.5972622 0.8750517 0.5972621 0.9950384 0.795268 0.8750517 0.795268 0.8750517 0.795268 0.9950384 0.9932738 0.8750517 0.003244698 0.7550653 0.003244698 0.8750517 0.2012506 0.7550653 0.2012506 0.7550653 0.2012506 0.8750517 0.3992563 0.7550653 0.3992563 0.7550653 0.3992563 0.8750517 0.5972621 0.7550653 0.5972621 0.7550653 0.5972622 0.8750517 0.7952679 0.7550653 0.7952679 0.7550653 0.795268 0.8750517 0.9932738 0.7550653 0.2012506 0.6350788 0.003244698 0.6350788 0.2012506 0.7550653 0.2012506 0.6350788 0.2012506 0.7550653 0.3992563 0.6350788 0.5972622 0.6350788 0.3992563 0.6350788 0.5972621 0.7550653 0.7952679 0.6350788 0.5972622 0.6350788 0.7952679 0.7550653 0.9932738 0.6350788 0.7952679 0.6350788 0.9932738 0.7550653 0.003244698 0.5150924 0.003244698 0.6350788 0.2012506 0.5150924 0.3992563 0.5150924 0.2012506 0.5150924 0.3992563 0.6350788 0.5972622 0.5150924 0.3992563 0.5150924 0.5972622 0.6350788 0.7952679 0.5150924 0.5972622 0.5150924 0.7952679 0.6350788 0.9932738 0.5150924 0.7952679 0.5150924 0.9932738 0.6350788 0.003244698 0.3951058 0.003244698 0.5150924 0.2012506 0.3951058 0.3992563 0.3951058 0.2012506 0.3951058 0.3992563 0.5150924 0.5972622 0.3951058 0.3992563 0.3951058 0.5972622 0.5150924 0.7952679 0.3951058 0.5972622 0.3951058 0.7952679 0.5150924 0.9932738 0.3951058 0.7952679 0.3951058 0.9932738 0.5150924</float_array>
+          <technique_common>
+            <accessor source="#wrld_waypoint_flag-Ge-mesh_001-mesh-map-0-array" count="336" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="wrld_waypoint_flag-Ge-mesh_001-mesh-vertices">
+          <input semantic="POSITION" source="#wrld_waypoint_flag-Ge-mesh_001-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_003-material" count="112">
+          <input semantic="VERTEX" source="#wrld_waypoint_flag-Ge-mesh_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#wrld_waypoint_flag-Ge-mesh_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#wrld_waypoint_flag-Ge-mesh_001-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 0 2 1 1 3 2 2 7 3 3 6 4 4 5 5 5 0 6 6 4 7 7 5 5 8 1 0 9 5 5 10 6 4 11 2 1 12 6 4 13 7 3 14 4 7 15 0 6 16 3 2 17 12 8 18 9 9 19 19 10 20 13 11 21 12 8 22 31 12 23 14 13 24 13 11 25 30 14 26 15 15 27 14 13 28 29 16 29 15 15 30 28 17 31 24 18 32 31 12 33 19 10 34 18 19 35 30 14 36 31 12 37 35 20 38 29 16 39 30 14 40 34 21 41 28 17 42 29 16 43 33 22 44 28 17 45 32 23 46 25 24 47 35 20 48 18 19 49 17 25 50 34 21 51 35 20 52 39 26 53 33 22 54 34 21 55 38 27 56 33 22 57 37 28 58 36 29 59 25 24 60 32 23 61 36 29 62 17 25 63 16 30 64 43 31 65 39 26 66 43 31 67 42 32 68 38 27 69 42 32 70 41 33 71 37 28 72 41 33 73 40 34 74 36 29 75 40 34 76 27 35 77 16 30 78 8 36 79 20 37 80 43 31 81 20 37 82 21 38 83 42 32 84 21 38 85 22 39 86 41 33 87 22 39 88 23 40 89 40 34 90 23 40 91 11 41 92 76 42 93 64 43 94 47 44 95 64 43 96 65 45 97 46 46 98 65 45 99 66 47 100 45 48 101 66 47 102 67 49 103 44 50 104 67 49 105 79 51 106 71 52 107 60 53 108 47 44 109 51 54 110 47 44 111 46 46 112 50 55 113 46 46 114 45 48 115 49 56 116 45 48 117 44 50 118 48 57 119 44 50 120 71 52 121 70 58 122 62 59 123 61 60 124 51 54 125 51 54 126 50 55 127 54 61 128 54 61 129 50 55 130 49 56 131 53 62 132 49 56 133 48 57 134 52 63 135 48 57 136 70 58 137 62 59 138 55 64 139 59 65 140 59 65 141 55 64 142 54 61 143 58 66 144 54 61 145 53 62 146 57 67 147 53 62 148 52 63 149 56 68 150 52 63 151 69 69 152 63 70 153 59 65 154 72 71 155 72 71 156 59 65 157 58 66 158 73 72 159 58 66 160 57 67 161 74 73 162 57 67 163 56 68 164 75 74 165 56 68 166 68 75 167 0 6 168 1 0 169 3 2 170 4 7 171 7 3 172 5 5 173 1 0 174 0 6 175 5 5 176 2 1 177 1 0 178 6 4 179 3 2 180 2 1 181 7 3 182 7 3 183 4 7 184 3 2 185 31 12 186 12 8 187 19 10 188 30 14 189 13 11 190 31 12 191 29 16 192 14 13 193 30 14 194 28 17 195 15 15 196 29 16 197 10 76 198 15 15 199 24 18 200 35 20 201 31 12 202 18 19 203 34 21 204 30 14 205 35 20 206 33 22 207 29 16 208 34 21 209 32 23 210 28 17 211 33 22 212 24 18 213 28 17 214 25 24 215 39 26 216 35 20 217 17 25 218 38 27 219 34 21 220 39 26 221 37 28 222 33 22 223 38 27 224 32 23 225 33 22 226 36 29 227 26 77 228 25 24 229 36 29 230 39 26 231 17 25 232 43 31 233 38 27 234 39 26 235 42 32 236 37 28 237 38 27 238 41 33 239 36 29 240 37 28 241 40 34 242 26 77 243 36 29 244 27 35 245 43 31 246 16 30 247 20 37 248 42 32 249 43 31 250 21 38 251 41 33 252 42 32 253 22 39 254 40 34 255 41 33 256 23 40 257 27 35 258 40 34 259 11 41 260 60 53 261 76 42 262 47 44 263 47 44 264 64 43 265 46 46 266 46 46 267 65 45 268 45 48 269 45 48 270 66 47 271 44 50 272 44 50 273 67 49 274 71 52 275 61 60 276 60 53 277 51 54 278 51 54 279 47 44 280 50 55 281 50 55 282 46 46 283 49 56 284 49 56 285 45 48 286 48 57 287 48 57 288 44 50 289 70 58 290 55 64 291 62 59 292 51 54 293 55 64 294 51 54 295 54 61 296 53 62 297 54 61 298 49 56 299 52 63 300 53 62 301 48 57 302 69 69 303 52 63 304 70 58 305 63 70 306 62 59 307 59 65 308 58 66 309 59 65 310 54 61 311 57 67 312 58 66 313 53 62 314 56 68 315 57 67 316 52 63 317 68 75 318 56 68 319 69 69 320 77 78 321 63 70 322 72 71 323 73 72 324 72 71 325 58 66 326 74 73 327 73 72 328 57 67 329 75 74 330 74 73 331 56 68 332 78 79 333 75 74 334 68 75 335</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_animations>
+    <animation id="SixWheeler_sixwheel_pose_matrix">
+      <source id="SixWheeler_sixwheel_pose_matrix-input">
+        <float_array id="SixWheeler_sixwheel_pose_matrix-input-array" count="9">0.04166656 0.1666666 0.4166666 0.5833333 0.75 0.8750001 1.041667 1.208333 1.25</float_array>
+        <technique_common>
+          <accessor source="#SixWheeler_sixwheel_pose_matrix-input-array" count="9" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="SixWheeler_sixwheel_pose_matrix-output">
+        <float_array id="SixWheeler_sixwheel_pose_matrix-output-array" count="144">1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#SixWheeler_sixwheel_pose_matrix-output-array" count="9" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="SixWheeler_sixwheel_pose_matrix-interpolation">
+        <Name_array id="SixWheeler_sixwheel_pose_matrix-interpolation-array" count="9">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#SixWheeler_sixwheel_pose_matrix-interpolation-array" count="9" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="SixWheeler_sixwheel_pose_matrix-sampler">
+        <input semantic="INPUT" source="#SixWheeler_sixwheel_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#SixWheeler_sixwheel_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#SixWheeler_sixwheel_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#SixWheeler_sixwheel_pose_matrix-sampler" target="sixwheel/transform"/>
+    </animation>
+    <animation id="SixWheeler_weapon_pose_matrix">
+      <source id="SixWheeler_weapon_pose_matrix-input">
+        <float_array id="SixWheeler_weapon_pose_matrix-input-array" count="9">0.04166656 0.1666666 0.4166666 0.5833333 0.75 0.8750001 1.041667 1.208333 1.25</float_array>
+        <technique_common>
+          <accessor source="#SixWheeler_weapon_pose_matrix-input-array" count="9" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="SixWheeler_weapon_pose_matrix-output">
+        <float_array id="SixWheeler_weapon_pose_matrix-output-array" count="144">1 0 0 0 0 1 0 5.959361 0 0 1 3.74421e-7 0 0 0 1 1 0 0 0 0 1 0 5.959361 0 0 1 3.74421e-7 0 0 0 1 1 0 0 0 0 1 0 5.959361 0 0 1 3.74421e-7 0 0 0 1 1 0 0 0 0 1 0 5.959361 0 0 1 3.74421e-7 0 0 0 1 1 0 0 0 0 1 0 5.959361 0 0 1 3.74421e-7 0 0 0 1 1 0 0 0 0 1 0 5.959361 0 0 1 3.74421e-7 0 0 0 1 1 0 0 0 0 1 0 5.959361 0 0 1 3.74421e-7 0 0 0 1 1 0 0 0 0 1 0 5.959361 0 0 1 3.74421e-7 0 0 0 1 1 0 0 0 0 1 0 5.959361 0 0 1 3.74421e-7 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#SixWheeler_weapon_pose_matrix-output-array" count="9" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="SixWheeler_weapon_pose_matrix-interpolation">
+        <Name_array id="SixWheeler_weapon_pose_matrix-interpolation-array" count="9">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#SixWheeler_weapon_pose_matrix-interpolation-array" count="9" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="SixWheeler_weapon_pose_matrix-sampler">
+        <input semantic="INPUT" source="#SixWheeler_weapon_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#SixWheeler_weapon_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#SixWheeler_weapon_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#SixWheeler_weapon_pose_matrix-sampler" target="weapon/transform"/>
+    </animation>
+    <animation id="SixWheeler_l_back_pose_matrix">
+      <source id="SixWheeler_l_back_pose_matrix-input">
+        <float_array id="SixWheeler_l_back_pose_matrix-input-array" count="9">0.04166656 0.1666666 0.4166666 0.5833333 0.75 0.8750001 1.041667 1.208333 1.25</float_array>
+        <technique_common>
+          <accessor source="#SixWheeler_l_back_pose_matrix-input-array" count="9" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="SixWheeler_l_back_pose_matrix-output">
+        <float_array id="SixWheeler_l_back_pose_matrix-output-array" count="144">1 4.69632e-10 -2.49658e-8 -2.009435 3.95241e-9 0.9842418 0.176828 5.028772 2.46554e-8 -0.176828 0.9842418 0.4572925 0 0 0 1 1 6.71593e-10 -1.9242e-8 -2.009435 -4.71839e-9 0.9774651 -0.2110971 5.291698 1.86666e-8 0.2110971 0.9774651 0.5209613 0 0 0 1 1 5.70507e-10 -2.52254e-8 -2.009435 4.35255e-9 0.980857 0.1947297 5.173507 2.48536e-8 -0.1947297 0.980857 -0.2462505 0 0 0 1 1 1.38744e-9 -1.79651e-8 -2.012511 -6.74053e-9 0.9534452 -0.3015664 5.215364 1.67104e-8 0.3015664 0.9534452 -0.1275544 0 0 0 1 1 0 -2.23517e-8 -2.009435 0 1 5.55112e-16 5.291698 2.23517e-8 -5.55112e-16 1 -0.227007 0 0 0 1 1 3.14093e-9 -1.60635e-8 -2.009435 -9.98792e-9 0.894608 -0.4468518 5.291698 1.2967e-8 0.4468518 0.894608 0.344078 0 0 0 1 0.998188 -0.007628449 0.05968636 -2.009435 0.006418875 0.9997706 0.02043103 5.195743 -0.05982853 -0.02001089 0.9980081 -0.2913254 0 0 0 1 1 4.69632e-10 -2.49658e-8 -2.009435 3.95241e-9 0.9842418 0.176828 5.028772 2.46554e-8 -0.176828 0.9842418 0.4572925 0 0 0 1 1 4.69632e-10 -2.49658e-8 -2.009435 3.95241e-9 0.9842418 0.176828 5.028772 2.46554e-8 -0.176828 0.9842418 0.4572925 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#SixWheeler_l_back_pose_matrix-output-array" count="9" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="SixWheeler_l_back_pose_matrix-interpolation">
+        <Name_array id="SixWheeler_l_back_pose_matrix-interpolation-array" count="9">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#SixWheeler_l_back_pose_matrix-interpolation-array" count="9" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="SixWheeler_l_back_pose_matrix-sampler">
+        <input semantic="INPUT" source="#SixWheeler_l_back_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#SixWheeler_l_back_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#SixWheeler_l_back_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#SixWheeler_l_back_pose_matrix-sampler" target="l_back/transform"/>
+    </animation>
+    <animation id="SixWheeler_l_mid_pose_matrix">
+      <source id="SixWheeler_l_mid_pose_matrix-input">
+        <float_array id="SixWheeler_l_mid_pose_matrix-input-array" count="9">0.04166656 0.1666666 0.4166666 0.5833333 0.75 0.8750001 1.041667 1.208333 1.25</float_array>
+        <technique_common>
+          <accessor source="#SixWheeler_l_mid_pose_matrix-input-array" count="9" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="SixWheeler_l_mid_pose_matrix-output">
+        <float_array id="SixWheeler_l_mid_pose_matrix-output-array" count="144">1 0 0 -1.617222 0 0.9963976 0.08480471 5.18721 0 -0.08480471 0.9963976 0.1718708 0 0 0 1 1 0 0 -1.617222 0 0.9912297 -0.13215 5.294771 0 0.13215 0.9912297 0.2159492 0 0 0 1 1 0 0 -1.617222 0 0.9907634 0.1356011 5.247495 0 -0.1356011 0.9907634 -0.06993942 0 0 0 1 0.9990431 0.04268537 -0.009532314 -1.618168 -0.04361814 0.9884241 -0.1453108 5.271284 0.003219324 0.1455875 0.9893401 -0.3781589 0 0 0 1 1 0 0 -1.617222 0 1 0 5.294771 0 0 1 -0.136873 0 0 0 1 1 0 0 -1.617222 0 0.9484474 -0.3169346 5.294771 0 0.3169346 0.9484474 0.1790564 0 0 0 1 1 0 0 -1.617222 0 0.9955949 0.09375965 5.224404 0 -0.09375965 0.9955949 -0.4547277 0 0 0 1 1 0 0 -1.617222 0 0.9963976 0.08480471 5.18721 0 -0.08480471 0.9963976 0.1718708 0 0 0 1 1 0 0 -1.617222 0 0.9963976 0.08480471 5.18721 0 -0.08480471 0.9963976 0.1718708 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#SixWheeler_l_mid_pose_matrix-output-array" count="9" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="SixWheeler_l_mid_pose_matrix-interpolation">
+        <Name_array id="SixWheeler_l_mid_pose_matrix-interpolation-array" count="9">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#SixWheeler_l_mid_pose_matrix-interpolation-array" count="9" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="SixWheeler_l_mid_pose_matrix-sampler">
+        <input semantic="INPUT" source="#SixWheeler_l_mid_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#SixWheeler_l_mid_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#SixWheeler_l_mid_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#SixWheeler_l_mid_pose_matrix-sampler" target="l_mid/transform"/>
+    </animation>
+    <animation id="SixWheeler_l_front_pose_matrix">
+      <source id="SixWheeler_l_front_pose_matrix-input">
+        <float_array id="SixWheeler_l_front_pose_matrix-input-array" count="9">0.04166656 0.1666666 0.4166666 0.5833333 0.75 0.8750001 1.041667 1.208333 1.25</float_array>
+        <technique_common>
+          <accessor source="#SixWheeler_l_front_pose_matrix-input-array" count="9" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="SixWheeler_l_front_pose_matrix-output">
+        <float_array id="SixWheeler_l_front_pose_matrix-output-array" count="144">1 -3.1574e-7 1.27806e-8 -1.217664 3.1574e-7 1 2.01768e-15 5.243464 -1.27806e-8 2.01768e-15 1 -0.07729003 0 0 0 1 1 -3.16152e-7 2.62051e-9 -1.217664 3.15666e-7 0.9979311 -0.06429082 5.297246 1.77106e-8 0.06429082 0.9979311 0.0108671 0 0 0 1 1 -3.1574e-7 1.27806e-8 -1.217664 3.1574e-7 1 2.01768e-15 5.273607 -1.27806e-8 2.01768e-15 1 0.02680358 0 0 0 1 1 -3.16323e-7 -1.61158e-9 -1.229837 3.14865e-7 0.9958531 -0.09097582 5.269935 3.03826e-8 0.09097582 0.9958531 -0.5258454 0 0 0 1 1 -3.1574e-7 1.27806e-8 -1.217664 3.1574e-7 1 2.01768e-15 5.297245 -1.27806e-8 2.01768e-15 1 -0.02452153 0 0 0 1 1 -3.16697e-7 -1.08555e-8 -1.217664 3.11551e-7 0.9888546 -0.1488846 5.297246 5.78859e-8 0.1488846 0.9888546 0.03487659 0 0 0 1 1 -3.14533e-7 4.26086e-8 -1.217664 3.00989e-7 0.9823087 0.1872687 5.284451 -1.00757e-7 -0.1872687 0.9823087 -0.4272212 0 0 0 1 1 -3.1574e-7 1.27806e-8 -1.217664 3.1574e-7 1 2.01768e-15 5.243464 -1.27806e-8 2.01768e-15 1 -0.07729003 0 0 0 1 1 -3.1574e-7 1.27806e-8 -1.217664 3.1574e-7 1 2.01768e-15 5.243464 -1.27806e-8 2.01768e-15 1 -0.07729003 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#SixWheeler_l_front_pose_matrix-output-array" count="9" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="SixWheeler_l_front_pose_matrix-interpolation">
+        <Name_array id="SixWheeler_l_front_pose_matrix-interpolation-array" count="9">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#SixWheeler_l_front_pose_matrix-interpolation-array" count="9" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="SixWheeler_l_front_pose_matrix-sampler">
+        <input semantic="INPUT" source="#SixWheeler_l_front_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#SixWheeler_l_front_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#SixWheeler_l_front_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#SixWheeler_l_front_pose_matrix-sampler" target="l_front/transform"/>
+    </animation>
+    <animation id="SixWheeler_r_back_pose_matrix">
+      <source id="SixWheeler_r_back_pose_matrix-input">
+        <float_array id="SixWheeler_r_back_pose_matrix-input-array" count="9">0.04166656 0.1666666 0.4166666 0.5833333 0.75 0.8750001 1.041667 1.208333 1.25</float_array>
+        <technique_common>
+          <accessor source="#SixWheeler_r_back_pose_matrix-input-array" count="9" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="SixWheeler_r_back_pose_matrix-output">
+        <float_array id="SixWheeler_r_back_pose_matrix-output-array" count="144">1 0 0 -0.811611 0 1 0 5.295494 0 0 1 -0.1941765 0 0 0 1 1 0 0 -0.811611 0 1 0 5.295494 0 0 1 -0.2610761 0 0 0 1 1 0 0 -0.811611 0 1 0 5.295494 0 0 1 0.02032065 0 0 0 1 1 0 0 -0.811611 0 1 0 5.295494 0 0 1 -0.6009978 0 0 0 1 1 0 0 -0.811611 0 1 0 5.295494 0 0 1 0.05756199 0 0 0 1 1 0 0 -0.811611 0 1 0 5.295494 0 0 1 -0.1237536 0 0 0 1 1 0 0 -0.811611 0 0.9931142 0.1171505 5.295494 0 -0.1171505 0.9931142 -0.1619921 0 0 0 1 1 0 0 -0.811611 0 1 0 5.295494 0 0 1 -0.1941765 0 0 0 1 1 0 0 -0.811611 0 1 0 5.295494 0 0 1 -0.1941765 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#SixWheeler_r_back_pose_matrix-output-array" count="9" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="SixWheeler_r_back_pose_matrix-interpolation">
+        <Name_array id="SixWheeler_r_back_pose_matrix-interpolation-array" count="9">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#SixWheeler_r_back_pose_matrix-interpolation-array" count="9" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="SixWheeler_r_back_pose_matrix-sampler">
+        <input semantic="INPUT" source="#SixWheeler_r_back_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#SixWheeler_r_back_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#SixWheeler_r_back_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#SixWheeler_r_back_pose_matrix-sampler" target="r_back/transform"/>
+    </animation>
+    <animation id="SixWheeler_r_mid_pose_matrix">
+      <source id="SixWheeler_r_mid_pose_matrix-input">
+        <float_array id="SixWheeler_r_mid_pose_matrix-input-array" count="9">0.04166656 0.1666666 0.4166666 0.5833333 0.75 0.8750001 1.041667 1.208333 1.25</float_array>
+        <technique_common>
+          <accessor source="#SixWheeler_r_mid_pose_matrix-input-array" count="9" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="SixWheeler_r_mid_pose_matrix-output">
+        <float_array id="SixWheeler_r_mid_pose_matrix-output-array" count="144">1 0 0 -0.4139308 0 1 0 5.295622 0 0 1 -0.2531206 0 0 0 1 1 0 0 -0.4139308 0 1 0 5.295622 0 0 1 -0.3240886 0 0 0 1 1 0 0 -0.4139308 0 1 0 5.277894 0 0 1 -0.07384974 0 0 0 1 1 0 0 -0.4139308 0 1 0 5.295622 0 0 1 -0.52379 0 0 0 1 1 0 0 -0.4139308 0 1 0 5.295622 0 0 1 -0.001779914 0 0 0 1 1 0 0 -0.4139308 0 1 0 5.295622 0 0 1 -0.2132928 0 0 0 1 1 0 0 -0.4139308 0 1 0 5.295622 0 0 1 -0.04368204 0 0 0 1 1 0 0 -0.4139308 0 1 0 5.295622 0 0 1 -0.2531206 0 0 0 1 1 0 0 -0.4139308 0 1 0 5.295622 0 0 1 -0.2531206 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#SixWheeler_r_mid_pose_matrix-output-array" count="9" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="SixWheeler_r_mid_pose_matrix-interpolation">
+        <Name_array id="SixWheeler_r_mid_pose_matrix-interpolation-array" count="9">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#SixWheeler_r_mid_pose_matrix-interpolation-array" count="9" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="SixWheeler_r_mid_pose_matrix-sampler">
+        <input semantic="INPUT" source="#SixWheeler_r_mid_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#SixWheeler_r_mid_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#SixWheeler_r_mid_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#SixWheeler_r_mid_pose_matrix-sampler" target="r_mid/transform"/>
+    </animation>
+    <animation id="SixWheeler_r_front_pose_matrix">
+      <source id="SixWheeler_r_front_pose_matrix-input">
+        <float_array id="SixWheeler_r_front_pose_matrix-input-array" count="9">0.04166656 0.1666666 0.4166666 0.5833333 0.75 0.8750001 1.041667 1.208333 1.25</float_array>
+        <technique_common>
+          <accessor source="#SixWheeler_r_front_pose_matrix-input-array" count="9" stride="1">
+            <param name="TIME" type="float"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="SixWheeler_r_front_pose_matrix-output">
+        <float_array id="SixWheeler_r_front_pose_matrix-output-array" count="144">1 0 0 -0.02586114 0 1 0 5.292475 0 0 1 -0.2113396 0 0 0 1 1 0 0 -0.02586114 0 1 0 5.292475 0 0 1 -0.2113396 0 0 0 1 1 0 0 -0.02586114 0 1 0 5.292475 0 0 1 -0.2113396 0 0 0 1 1 0 0 -0.02586114 0 1 0 5.292475 0 0 1 -0.2113396 0 0 0 1 1 0 0 -0.02586114 0 1 0 5.292475 0 0 1 -0.2113396 0 0 0 1 1 0 0 -0.02586114 0 1 0 5.292475 0 0 1 -0.2113396 0 0 0 1 1 0 0 -0.02586114 0 1 0 5.292475 0 0 1 -0.2113396 0 0 0 1 1 0 0 -0.02586114 0 1 0 5.292475 0 0 1 -0.2113396 0 0 0 1 1 0 0 -0.02586114 0 1 0 5.292475 0 0 1 -0.2113396 0 0 0 1</float_array>
+        <technique_common>
+          <accessor source="#SixWheeler_r_front_pose_matrix-output-array" count="9" stride="16">
+            <param name="TRANSFORM" type="float4x4"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="SixWheeler_r_front_pose_matrix-interpolation">
+        <Name_array id="SixWheeler_r_front_pose_matrix-interpolation-array" count="9">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor source="#SixWheeler_r_front_pose_matrix-interpolation-array" count="9" stride="1">
+            <param name="INTERPOLATION" type="name"/>
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="SixWheeler_r_front_pose_matrix-sampler">
+        <input semantic="INPUT" source="#SixWheeler_r_front_pose_matrix-input"/>
+        <input semantic="OUTPUT" source="#SixWheeler_r_front_pose_matrix-output"/>
+        <input semantic="INTERPOLATION" source="#SixWheeler_r_front_pose_matrix-interpolation"/>
+      </sampler>
+      <channel source="#SixWheeler_r_front_pose_matrix-sampler" target="r_front/transform"/>
+    </animation>
+  </library_animations>
+  <library_controllers>
+    <controller id="SixWheeler_flag-skin" name="SixWheeler">
+      <skin source="#wrld_waypoint_flag-Ge-mesh_001-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="SixWheeler_flag-skin-joints">
+          <Name_array id="SixWheeler_flag-skin-joints-array" count="8">sixwheel weapon l_back l_mid l_front r_back r_mid r_front</Name_array>
+          <technique_common>
+            <accessor source="#SixWheeler_flag-skin-joints-array" count="8" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="SixWheeler_flag-skin-bind_poses">
+          <float_array id="SixWheeler_flag-skin-bind_poses-array" count="128">1 0 0 0 0 0 1 0 0 -1 0 0 0 0 0 1 1 0 0 0 0 0 1 -5.959361 0 -1 0 -3.74421e-7 0 0 0 1 1 0 0 2.009435 0 0 1 -5.291698 0 -1 0 0.2136817 0 0 0 1 1 0 0 1.617222 0 0 1 -5.294773 0 -1 0 0.2150413 0 0 0 1 1 0 0 1.217664 0 0 1 -5.297245 0 -1 0 0.2144234 0 0 0 1 1 0 0 0.811611 0 0 1 -5.295494 0 -1 0 0.2137669 0 0 0 1 1 0 0 0.4139308 0 0 1 -5.295622 0 -1 0 0.2139396 0 0 0 1 1 0 0 0.02586114 0 0 1 -5.292475 0 -1 0 0.2113395 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#SixWheeler_flag-skin-bind_poses-array" count="8" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="SixWheeler_flag-skin-weights">
+          <float_array id="SixWheeler_flag-skin-weights-array" count="80">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#SixWheeler_flag-skin-weights-array" count="80" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#SixWheeler_flag-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#SixWheeler_flag-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="80">
+          <input semantic="JOINT" source="#SixWheeler_flag-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#SixWheeler_flag-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 1 0 2 0 3 0 4 0 5 0 6 0 7 2 8 2 9 7 10 7 11 3 12 4 13 5 14 6 15 2 16 2 17 2 18 2 19 3 20 4 21 5 22 6 23 7 24 7 25 7 26 7 27 6 28 5 29 4 30 3 31 6 32 5 33 4 34 3 35 6 36 5 37 4 38 3 39 6 40 5 41 4 42 3 43 3 44 4 45 5 46 6 47 3 48 4 49 5 50 6 51 3 52 4 53 5 54 6 55 3 56 4 57 5 58 6 59 7 60 7 61 7 62 7 63 6 64 5 65 4 66 3 67 2 68 2 69 2 70 2 71 6 72 5 73 4 74 3 75 7 76 7 77 2 78 2 79</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="SixWheeler" name="SixWheeler" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <node id="sixwheel" name="sixwheel" sid="sixwheel" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1</matrix>
+          <node id="weapon" name="weapon" sid="weapon" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 5.959361 0 0 1 3.74421e-7 0 0 0 1</matrix>
+          </node>
+          <node id="l_back" name="l_back" sid="l_back" type="JOINT">
+            <matrix sid="transform">1 0 -2.98023e-8 -2.009435 0 1 0 5.291698 2.98023e-8 0 1 -0.2136818 0 0 0 1</matrix>
+          </node>
+          <node id="l_mid" name="l_mid" sid="l_mid" type="JOINT">
+            <matrix sid="transform">1 0 0 -1.617222 0 1 0 5.294773 0 0 1 -0.2150413 0 0 0 1</matrix>
+          </node>
+          <node id="l_front" name="l_front" sid="l_front" type="JOINT">
+            <matrix sid="transform">1 0 0 -1.217664 0 1 0 5.297246 0 0 1 -0.2144234 0 0 0 1</matrix>
+          </node>
+          <node id="r_back" name="r_back" sid="r_back" type="JOINT">
+            <matrix sid="transform">1 0 0 -0.811611 0 1 0 5.295494 0 0 1 -0.2137669 0 0 0 1</matrix>
+          </node>
+          <node id="r_mid" name="r_mid" sid="r_mid" type="JOINT">
+            <matrix sid="transform">1 0 0 -0.4139308 0 1 0 5.295622 0 0 1 -0.2139396 0 0 0 1</matrix>
+          </node>
+          <node id="r_front" name="r_front" sid="r_front" type="JOINT">
+            <matrix sid="transform">1 0 0 -0.02586114 0 1 0 5.292475 0 0 1 -0.2113396 0 0 0 1</matrix>
+          </node>
+        </node>
+      </node>
+      <node id="flag" name="flag" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#SixWheeler_flag-skin">
+          <skeleton>#sixwheel</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_003-material" target="#Material_003-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

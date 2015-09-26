@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Bulk Bridge">
+	<animations>
+        <animation file="other/wormhole1_rotate.dae" name="Idle" speed="800"/>
+      </animations>
+      <mesh>structural/misc_wormhole1</mesh>
+      <props>
+         <prop actor="props/structures/decals/zev_road_10x10.xml" attachpoint="root"/>
+      </props>
+      <textures>
+	    <texture file="structural/misc_wormhole1.dds" name="baseTex"/>
+	    <texture file="structural/misc_wormhole1_normal.dds" name="normTex"/>
+	    <texture file="structural/misc_wormhole1_spec.dds" name="specTex"/>
+	  </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med_gray.xml" attachpoint="root"/>
+        <prop actor="props/structures/celts/barracks_props_new.xml" attachpoint="root"/>
+        <prop actor="props/structures/celts/barracks_props_1.xml" attachpoint="root"/>
+        <prop actor="props/structures/celts/barracks_weapons.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/celt_barracks.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

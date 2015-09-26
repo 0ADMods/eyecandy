@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Bulk Bridge">
+      <mesh>structural/misc_decal.dae</mesh>
+      <textures>
+	    <texture file="structural/jev_crystal1.dds" name="baseTex"/>
+	    <texture file="structural/jev_crystal1_spec.dds" name="specTex"/>
+	  </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="death">
+    </variant>
+  </group>
+  <material>basic_glow.xml</material>
+</actor>

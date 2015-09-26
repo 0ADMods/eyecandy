@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant name="Celt Henge Monument">
+			<mesh>structural/celt_uffington_horse.dae</mesh>
+			<textures>
+				<texture file="structural/celt_uffington_horse.png" name="baseTex"/>
+				<texture file="structural/ao/celt_uffington_horse_ao.png" name="aoTex"/>
+			</textures>
+			<props>
+				<prop actor="props/structures/celts/uffington_horse_icosphere.xml" attachpoint="root"/>
+				<prop actor="props/flora/grass_field_flowering_tall.xml" attachpoint="grass001"/>
+				<prop actor="props/flora/grass_field_bloom_short.xml" attachpoint="grass002"/>
+				<prop actor="props/flora/grass_field_bloom_short.xml" attachpoint="grass003"/>
+				<prop actor="props/flora/grass_field_flowering_tall.xml" attachpoint="grass004"/>
+				<prop actor="props/flora/grass_soft_large_tall.xml" attachpoint="grass005"/>
+				<prop actor="props/flora/grass_soft_small.xml" attachpoint="grass006"/>
+				<prop actor="props/flora/grass_field_bloom_short.xml" attachpoint="grass007"/>
+				<prop actor="props/flora/grass_soft_large_tall.xml" attachpoint="grass008"/>
+				<prop actor="props/flora/grass_field_bloom_short.xml" attachpoint="grass009"/>
+				<prop actor="props/flora/grass_soft_small_tall.xml" attachpoint="grass010"/>
+				<prop actor="props/flora/grass_field_bloom_short.xml" attachpoint="grass011"/>
+				<prop actor="props/flora/grass_soft_large_tall.xml" attachpoint="grass012"/>
+				<prop actor="props/flora/grass_field_bloom_short.xml" attachpoint="grass013"/>
+				<prop actor="props/flora/grass_field_bloom_short.xml" attachpoint="grass014"/>
+				<prop actor="props/structures/decals/uffington2x2_a.xml" attachpoint="decal001"/>
+				<prop actor="props/structures/decals/uffington2x2_a.xml" attachpoint="decal002"/>
+				<prop actor="props/structures/decals/uffington2x2_a.xml" attachpoint="decal003"/>
+				<prop actor="props/structures/decals/uffington2x2_a.xml" attachpoint="decal004"/>
+				<prop actor="props/structures/decals/uffington2x2_a.xml" attachpoint="decal005"/>
+				<prop actor="props/structures/decals/uffington2x2_a.xml" attachpoint="decal006"/>
+				<prop actor="props/structures/decals/uffington2x2_a.xml" attachpoint="decal007"/>
+				<prop actor="props/structures/decals/uffington2x2_a.xml" attachpoint="decal008"/>
+				<prop actor="props/structures/decals/uffington2x2_a.xml" attachpoint="decal009"/>
+				<prop actor="props/structures/decals/uffington2x2_a.xml" attachpoint="decal010"/>
+				<prop actor="props/structures/decals/uffington2x2_a.xml" attachpoint="decal011"/>
+				<prop actor="props/structures/decals/uffington2x2_a.xml" attachpoint="decal012"/>
+				<prop actor="props/structures/decals/uffington2x2_a.xml" attachpoint="decal013"/>
+				<prop actor="props/structures/decals/uffington2x2_a.xml" attachpoint="decal014"/>
+				<prop actor="props/structures/decals/uffington2x2_a.xml" attachpoint="decal015"/>
+				<prop actor="flora/trees/carob.xml" attachpoint="tree001"/>
+				<prop actor="flora/trees/oak.xml" attachpoint="tree002"/>
+				<prop actor="flora/trees/european_beech.xml" attachpoint="tree003"/>
+			</props>
+		</variant>
+	</group>
+	<material>player_trans_ao.xml</material>
+</actor>

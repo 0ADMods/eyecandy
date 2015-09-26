@@ -1,0 +1,13 @@
+<skeletons>
+	<standard_skeleton title="Wormhole Rotation" id="WormholeRotation">
+		<bone name="joint1">
+			<bone name="joint2" />
+		</bone>
+	</standard_skeleton>
+
+	<skeleton title="WormholeRotation" target="WormholeRotation"><identifier><root>joint1</root></identifier>
+		<bone name="joint2"><target>joint1</target>
+			<bone name="joint2_Controller"><target>joint2</target></bone>
+		</bone>
+	</skeleton>
+</skeletons>
