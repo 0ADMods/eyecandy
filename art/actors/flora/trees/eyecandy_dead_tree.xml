@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Base">
+      <textures>
+        <texture file="gaia/prop_eyecandy_nature.png" name="baseTex"/>     
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="Tree A">
+      <mesh>gaia/eyecandy_tree_dead_a.dae</mesh>
+    </variant>
+    <variant name="Tree B">
+      <mesh>gaia/eyecandy_tree_dead_b.dae</mesh>
+    </variant>
+    <variant name="Tree C">
+      <mesh>gaia/eyecandy_tree_dead_c.dae</mesh>
+    </variant>
+    <variant name="Tree D">
+      <mesh>gaia/eyecandy_tree_dead_d.dae</mesh>
+    </variant>   
+    <variant name="Tree E">
+      <mesh>gaia/eyecandy_tree_dead_e.dae</mesh>
+    </variant>
+  </group>
+  <material>basic_trans_wind.xml</material>
+</actor>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Base">
+      <textures>
+        <texture file="gaia/prop_eyecandy_nature.png" name="baseTex"/>     
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="Fern A">
+      <mesh>gaia/eyecandy_fern_a.dae</mesh>
+    </variant>
+    <variant name="Fern B">
+      <mesh>gaia/eyecandy_fern_b.dae</mesh>
+    </variant>
+    <variant name="Fern C">
+      <mesh>gaia/eyecandy_fern_c.dae</mesh>
+    </variant>
+    <variant name="Fern D">
+      <mesh>gaia/eyecandy_fern_d.dae</mesh>
+    </variant>   
+    <variant name="Fern E">
+      <mesh>gaia/eyecandy_fern_e.dae</mesh>
+    </variant>
+  </group>
+  <material>basic_trans_wind.xml</material>
+</actor>

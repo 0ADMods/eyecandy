@@ -7,6 +7,7 @@
 			<textures>
 				<texture file="props/alpine_cliff.dds" name="baseTex"/>
 				<texture file="props/alpine_cliff_norm.png" name="normTex"/>
+				<texture file="props/alpine_cliff_spec.png" name="specTex"/>
 			</textures>
 		</variant>
 	</group>

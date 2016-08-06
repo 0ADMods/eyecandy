@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Base">
+      <mesh>gaia/eyecandy_tree_dead_rock_a.dae</mesh>
+      <textures>
+        <texture file="gaia/prop_eyecandy_nature.png" name="baseTex"/>     
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_wind.xml</material>
+</actor>
