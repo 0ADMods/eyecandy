@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<terrain>
+  <textures>
+    <texture name="baseTex" file="types/new/sand_rocks.png"/>
+    <texture name="normTex" file="types/new/sand_rocks_norm.png"/>
+  </textures>
+  <material>terrain_triplanar_norm.xml</material>
+</terrain>

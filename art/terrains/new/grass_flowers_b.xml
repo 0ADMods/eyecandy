@@ -3,7 +3,7 @@
   <textures>
     <texture name="baseTex" file="types/new/grass_flower_b.png"/>
     <texture name="normTex" file="types/new/grass_flower_b_norm.png"/>
-    <texture name="specTex" file="types/new/grass_flower_b_spec.png"/>
+    <texture name="specTex" file="types/new/grass_flowers_b_spec.png"/>
   </textures>
   <material>terrain_norm_spec.xml</material>
 </terrain>
