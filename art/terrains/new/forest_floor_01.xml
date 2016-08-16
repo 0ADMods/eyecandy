@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <terrain>
   <textures>
-    <texture name="baseTex" file="types/new/forest_floor.png"/>
+    <texture name="baseTex" file="types/new/forest_floor_01.png"/>
   </textures>
   <material>terrain_base.xml</material>
 </terrain>

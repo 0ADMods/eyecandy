@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<terrain>
+  <textures>
+    <texture name="baseTex" file="types/new/forest_floor_autumn_rocky.png"/>
+    <texture name="normTex" file="types/new/forest_floor_autumn_rocky_norm.png"/>
+  </textures>
+  <material>terrain_norm.xml</material>
+</terrain>
