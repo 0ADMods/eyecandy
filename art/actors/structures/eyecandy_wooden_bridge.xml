@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Eyecandy Wooden Bridge">
+      <mesh>structural/eyecandy_wooden_bridge.dae</mesh>
+      <props>
+        <prop actor="props/structures/eyecandy_wooden_bridge_nature01.xml" attachpoint="root"/>
+        <prop actor="props/structures/eyecandy_wooden_bridge_nature02.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/eyecandy_wooden_bridge.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

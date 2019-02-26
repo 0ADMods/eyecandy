@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Stanislas Daniel Claude Dolcini</author>
+      <authoring_tool>Blender 2.78.0 commit date:2016-10-24, commit time:12:20, hash:e8299c8</authoring_tool>
+    </contributor>
+    <created>2016-12-20T17:28:32</created>
+    <modified>2016-12-20T17:28:32</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="Material_006-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.64 0.64 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Material_006-material" name="Material_006">
+      <instance_effect url="#Material_006-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="cross_large_short-Geometry_001-mesh" name="cross_large_short-Geometry.001">
+      <mesh>
+        <source id="cross_large_short-Geometry_001-mesh-positions">
+          <float_array id="cross_large_short-Geometry_001-mesh-positions-array" count="240">-3.048012 -1.794201 3.687541 -1.579911 -2.368834 -0.07564198 -0.3628869 2.368834 4.045453 1.105214 1.794201 0.28227 1.498829 1.195598 3.687541 0.2294781 2.130623 -0.07564198 -2.172276 -2.130623 4.045453 -3.441627 -1.195598 0.28227 1.284814 -0.685186 4.022057 1.71745 0.412241 0.258444 -3.660248 -0.412241 3.711366 -3.227612 0.685186 -0.05224597 4.602839 9.342777 4.616688 4.091396 10.09073 0.6384902 2.691464 4.806015 3.958436 2.180021 5.553969 -0.01976227 1.098712 5.915764 3.68754 2.471072 5.13978 -0.07564282 4.344246 9.658392 4.045452 5.716607 8.882409 0.282269 -6.985947 0.8495947 3.687541 -5.517845 0.2749617 -0.07564198 -4.300821 5.012629 4.045453 -2.83272 4.437997 0.28227 -7.266007 2.721683 4.022057 -7.399866 1.549676 0.258444 -2.418801 3.737916 3.711366 -2.552659 2.565909 -0.05224597 -2.439105 3.839394 3.687541 -3.708456 4.774419 -0.07564198 -6.11021 0.5131726 4.045453 -7.379561 1.448198 0.28227 -2.65312 1.95861 4.022057 -2.220484 3.056037 0.258444 -7.598183 2.231555 3.711366 -7.165546 3.328982 -0.05224597 0.5983808 13.29235 3.687541 -0.9484313 12.98756 -0.07564198 0.5725558 8.338554 4.045453 -0.9742563 8.033763 0.28227 -1.627975 8.326869 3.687541 -0.05498385 8.22093 -0.07564198 -0.3208921 13.10518 4.045453 1.252099 12.99924 0.28227 -2.458703 10.02776 4.022057 -2.233473 8.869837 0.258444 1.857598 12.45628 3.711366 2.082829 11.29835 -0.05224597 3.187259 5.922539 3.687541 3.66501 7.424963 -0.07564198 -1.14189 8.330697 4.045453 -0.6641398 9.83312 0.28227 1.133325 5.12314 3.270955 3.001946 5.890093 -0.1167194 -0.4308891 9.815677 3.66845 1.437733 10.58263 0.2807775 -0.5225029 9.791793 3.620346 -0.5562255 9.26371 -0.4252765 3.127283 6.44206 3.977009 3.093561 5.913977 -0.06861376 1.272864 9.682301 4.298373 0.8586218 10.79653 0.5376278 1.712435 4.909242 3.014103 1.298194 6.02347 -0.7466405 -0.3553393 0.6458378 3.687541 0.1224117 2.148262 -0.07564198 -4.684488 3.053995 4.045453 -4.206738 4.556418 0.28227 -2.2052 0.2443876 4.022057 -1.026962 0.1871805 0.258444 -3.535115 5.015076 3.711366 -2.356876 4.957869 -0.05224597 -3.635054 4.988202 3.687541 -4.485382 3.660623 -0.07564198 -0.07669472 1.541634 4.045453 -0.9270227 0.2140541 0.28227 -1.744322 4.897192 4.022057 -2.867608 5.257401 0.258444 -1.69447 -0.05514526 3.711366 -2.817754 0.3050642 -0.05224597</float_array>
+          <technique_common>
+            <accessor source="#cross_large_short-Geometry_001-mesh-positions-array" count="80" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="cross_large_short-Geometry_001-mesh-normals">
+          <float_array id="cross_large_short-Geometry_001-mesh-normals-array" count="48">0.7629714 -0.5245887 0.3777319 -0.6012043 0.7041773 0.3777403 0.03506684 0.9583414 0.2834647 -0.9149577 0.358628 0.1850363 0.6813466 -0.6269609 0.3777391 0.2141228 -0.934773 0.2834624 -0.9253544 0.03210657 0.3777412 0.8855133 -0.2705218 0.3777356 0.4856516 -0.8269171 0.2834621 0.4737579 0.7955274 0.3777428 0.8282824 0.2329201 0.5096043 -0.6780744 -0.7280648 0.1006826 -0.9908299 -0.1116995 0.0760228 0.9188345 0.2745791 0.2834601 -0.6635244 -0.6457926 0.3777398 -0.958593 -0.02740579 0.2834579</float_array>
+          <technique_common>
+            <accessor source="#cross_large_short-Geometry_001-mesh-normals-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="cross_large_short-Geometry_001-mesh-map-0">
+          <float_array id="cross_large_short-Geometry_001-mesh-map-0-array" count="240">0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0 0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0 0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0 0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0 0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0 0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0 0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0 0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0 0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0 0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0 0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0 0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0 0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0 0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0 0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0 0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0 0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0 0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0 0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0 0 0.9975392 0 0 1 0.9975392 1 0 1 0.9975392 0 0</float_array>
+          <technique_common>
+            <accessor source="#cross_large_short-Geometry_001-mesh-map-0-array" count="120" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="cross_large_short-Geometry_001-mesh-vertices">
+          <input semantic="POSITION" source="#cross_large_short-Geometry_001-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_006-material" count="40">
+          <input semantic="VERTEX" source="#cross_large_short-Geometry_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#cross_large_short-Geometry_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#cross_large_short-Geometry_001-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 0 1 0 1 2 0 2 3 0 3 2 0 4 1 0 5 4 1 6 5 1 7 6 1 8 7 1 9 6 1 10 5 1 11 8 2 12 9 2 13 10 2 14 11 2 15 10 2 16 9 2 17 12 3 18 13 3 19 14 3 20 15 3 21 14 3 22 13 3 23 16 4 24 17 4 25 18 4 26 19 4 27 18 4 28 17 4 29 20 0 30 21 0 31 22 0 32 23 0 33 22 0 34 21 0 35 24 5 36 25 5 37 26 5 38 27 5 39 26 5 40 25 5 41 28 1 42 29 1 43 30 1 44 31 1 45 30 1 46 29 1 47 32 2 48 33 2 49 34 2 50 35 2 51 34 2 52 33 2 53 36 6 54 37 6 55 38 6 56 39 6 57 38 6 58 37 6 59 40 7 60 41 7 61 42 7 62 43 7 63 42 7 64 41 7 65 44 8 66 45 8 67 46 8 68 47 8 69 46 8 70 45 8 71 48 9 72 49 9 73 50 9 74 51 9 75 50 9 76 49 9 77 52 10 78 53 10 79 54 10 80 55 10 81 54 10 82 53 10 83 56 11 84 57 11 85 58 11 86 59 11 87 58 11 88 57 11 89 60 12 90 61 12 91 62 12 92 63 12 93 62 12 94 61 12 95 64 9 96 65 9 97 66 9 98 67 9 99 66 9 100 65 9 101 68 13 102 69 13 103 70 13 104 71 13 105 70 13 106 69 13 107 72 14 108 73 14 109 74 14 110 75 14 111 74 14 112 73 14 113 76 15 114 77 15 115 78 15 116 79 15 117 78 15 118 77 15 119</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="cross_large_short" name="cross_large_short" type="NODE">
+        <matrix sid="transform">0.8302451 -0.5573984 0 4.158579 0.5573984 0.8302451 0 -4.451046 0 0 1 -1.892606 0 0 0 1</matrix>
+        <instance_geometry url="#cross_large_short-Geometry_001-mesh" name="cross_large_short">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_006-material" target="#Material_006-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_storehouse">
+  <Footprint>
+    <Square width="8.0" depth="16.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>eyecandy</Civ>
+    <SpecificName>Bridge</SpecificName>
+    <History>Small bridges were often constructed to avoid having to cross dangerous rivers</History>
+  </Identity>
+  <Obstruction>
+    <Static width="8.0" depth="16.0"/>
+  </Obstruction>
+  <Position>
+    <Floating>true</Floating>
+  </Position>
+  <VisualActor>
+    <Actor>structures/eyecandy_wooden_bridge.xml</Actor>
+  </VisualActor>
+</Entity>
